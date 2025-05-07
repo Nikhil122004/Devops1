@@ -24,4 +24,12 @@ pipeline {
         }
     }
 
- 
+ post {
+        success {
+            echo '✅ Static Nginx web app deployed successfully!'
+        }
+        failure {
+            echo '❌ Deployment failed. Check the error logs.'
+        }
+    }
+}
