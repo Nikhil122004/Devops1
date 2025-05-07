@@ -1,0 +1,9 @@
+version: '3.8'
+
+services: 
+  webmake:
+    build: .
+    container_name: devops1
+    ports:
+      - "8888:80"
+    restart: always
