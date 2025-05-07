@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'master', url: 'https://github.com/Nikhil122004/Final_Devops_Project.git'
+                git branch: 'master', url: 'https://github.com/Nikhil122004/Devops1.gitt'
             }
         }
 
